@@ -49,6 +49,10 @@ img {
 
 /*Components*/
 
+.section {
+  padding: 94px 0;
+}
+
 .logo-link {
   padding: 32px 0;
   font-family: "Raleway", sans-serif;
@@ -77,8 +81,12 @@ img {
 
 /*Header*/
 
+.header {
+  border-bottom: 1px #ececec;
+}
+
 .header-navigation {
-  display: flex; 
+  display: flex;
   align-items: center;
 }
 
@@ -96,7 +104,7 @@ img {
   font-weight: 500;
   line-height: 1.33;
   letter-spacing: 0.02em;
-  color: var(--main-color)
+  color: var(--main-color);
 }
 .current,
 .menu-link:hover,
@@ -109,10 +117,9 @@ img {
   margin-left: auto;
 }
 
-.container.main-nav{
+.container.main-nav {
   display: flex;
   align-items: center;
-
 }
 
 .contacts {
@@ -122,7 +129,7 @@ img {
   color: var(--description-text-color);
 }
 
-.header{
+.header {
   display: flex;
 }
 
@@ -131,15 +138,13 @@ img {
   color: var(--accent-color);
 }
 
-
 /*Hero section*/
 
 .hero {
   text-align: center;
   padding: 200px 0;
-  background-color: var(--hero-title-background-color); 
+  background-color: var(--hero-title-background-color);
 }
-
 
 .hero-title {
   display: block;
@@ -173,20 +178,15 @@ img {
 }
 
 /*Benefits*/
-.benefits{
-  padding: 94px 0 47px 0;
-}
 
 .visually-hidden {
   width: 1px;
   height: 1px;
   margin: -1px;
-  border: 0;
-  padding: 0
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
   overflow: hidden;
+}
+.benefits {
+  padding-bottom: 47px;
 }
 
 .benefits-list {
@@ -199,7 +199,7 @@ img {
   width: 270px;
 }
 
-.benefits-list :not(:last-child) {  
+.benefits-list :not(:last-child) {
   margin-right: 30px;
 }
 
@@ -214,17 +214,16 @@ img {
   color: var(--description-text-color);
 }
 
-                /* what are we doing*/
-
-.profession {
-  padding-bottom: 94px;
+/* what are we doing*/
+.activities {
+  padding-top: 47px;
 }
 
-.examples{
-  display: flex;  
+.examples {
+  display: flex;
 }
 
-.primary-title{
+.primary-title {
   margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.16;
@@ -232,24 +231,28 @@ img {
   color: var(--main-color);
 }
 
+.examples-item {
+  background-color: var(--primary-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
 .examples-item:not(:last-child) {
   margin-right: 30px;
 }
 
-
 /*Team section*/
 
-.our-team-section {
-  padding: 94px 0;
+.team {
   background-color: var(--sections-background-color);
 }
 
-.name-item{
+.name-item {
   padding: 30px 0 5px 0;
   text-align: center;
 }
 
-.text-item{
+.text-item {
   padding: 5px 0 30px 0;
   text-align: center;
 }
@@ -264,11 +267,11 @@ img {
   color: var(--primary-color);
 }
 
-.btm-adress{
+.btm-adress {
   margin-top: 20px;
 }
 
-.adress-list:not(:last-child){
+.adress-list:not(:last-child) {
   padding-bottom: 9px;
 }
 
