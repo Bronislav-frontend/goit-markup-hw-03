@@ -73,7 +73,6 @@ img {
   margin: 0 auto;
   padding-right: 15px;
   padding-left: 15px;
-  outline: solid 2px tomato;
 }
 
 /*Header*/
@@ -174,6 +173,9 @@ img {
 }
 
 /*Benefits*/
+.benefits{
+  padding: 94px 0 47px 0;
+}
 
 .visually-hidden {
   width: 1px;
@@ -190,7 +192,7 @@ img {
 .benefits-list {
   display: flex;
   padding-top: 94px;
-  padding-bottom: 47px;
+  padding-bottom: 94px;
 }
 
 .benefits-item {
@@ -215,7 +217,7 @@ img {
                 /* what are we doing*/
 
 .profession {
-  margin-top: 47px;
+  padding-bottom: 94px;
 }
 
 .examples{
