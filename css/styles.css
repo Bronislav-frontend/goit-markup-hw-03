@@ -73,7 +73,7 @@ img {
   margin: 0 auto;
   padding-right: 15px;
   padding-left: 15px;
-  outline: red solid 2px;
+  outline: solid 2px tomato;
 }
 
 /*Header*/
@@ -207,6 +207,7 @@ img {
 }
 
 .benefits-description {
+  padding-top: 10px;
   line-height: 1.71;
   color: var(--description-text-color);
 }
@@ -214,7 +215,7 @@ img {
                 /* what are we doing*/
 
 .profession {
-  margin: 30px;
+  margin-top: 47px;
 }
 
 .examples{
@@ -241,6 +242,16 @@ img {
   background-color: var(--sections-background-color);
 }
 
+.name-item{
+  padding: 30px 0 5px 0;
+  text-align: center;
+}
+
+.text-item{
+  padding: 5px 0 30px 0;
+  text-align: center;
+}
+
 /*Footer*/
 
 .footer-link {
@@ -249,6 +260,14 @@ img {
   font-size: 26px;
   line-height: 1.19;
   color: var(--primary-color);
+}
+
+.btm-adress{
+  margin-top: 20px;
+}
+
+.adress-list:not(:last-child){
+  padding-bottom: 9px;
 }
 
 .adress {
@@ -264,7 +283,10 @@ img {
 }
 
 .footer-section {
+  display: block;
   background-color: var(--hero-title-background-color);
+  height: 252px;
+  padding-top: 60px;
 }
 
 /*portfolio styles*/
