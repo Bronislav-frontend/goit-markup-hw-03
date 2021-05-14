@@ -82,7 +82,8 @@ img {
 /*Header*/
 
 .header {
-  border-bottom: 1px #ececec;
+  padding: 32px 0;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-navigation {
@@ -117,7 +118,7 @@ img {
   margin-left: auto;
 }
 
-.container.main-nav {
+.main-nav {
   display: flex;
   align-items: center;
 }
@@ -161,6 +162,7 @@ img {
 }
 
 .modal-btn {
+  padding: 10px 32px;
   margin-top: 30px;
   font-weight: bold;
   font-size: 16px;
@@ -186,6 +188,7 @@ img {
   overflow: hidden;
 }
 .benefits {
+  padding-top: 94px;
   padding-bottom: 47px;
 }
 
@@ -195,11 +198,7 @@ img {
   padding-bottom: 94px;
 }
 
-.benefits-item {
-  width: 270px;
-}
-
-.benefits-list :not(:last-child) {
+.benefits-item:not(:last-child) {
   margin-right: 30px;
 }
 
