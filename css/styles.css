@@ -222,6 +222,10 @@ img {
 .activities {
   padding-bottom: 94px;
 }
+.activities-item{
+  flex-basis: calc((100% - 60px) / 3);
+}
+
 .examples {
   display: flex;
   flex-wrap: wrap;
